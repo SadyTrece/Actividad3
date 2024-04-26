@@ -2,6 +2,7 @@
 // list, and summarize expenses, as well as to validate inputs and handle file data.
 public class ExpenseManager {
     mport java.util.ArrayList;
+import java.util.ArrayList;
 import java.util.List;
 
 public class ExpenseManager {
@@ -24,6 +25,18 @@ public class ExpenseManager {
         // Calcular y devolver el monto total de los gastos
         return 0.0;
     }
+
+    public boolean validarEntrada(Expense gasto) {
+        // Validar el objeto de gasto de entrada
+        return true;
+    }
+
+    public void manejarDatosDeArchivo(String rutaArchivo) {
+        // Manejar datos de archivo relacionados con los gastos
+    }
+
+    // Métodos adicionales según sea necesario
+}
 
 }
 }
