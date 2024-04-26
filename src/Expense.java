@@ -1,4 +1,11 @@
-// This class represents an individual expense with two attributes: the amount spent and the expense category.
 public class Expense {
     
+    private double cantidadGasto;
+    private String cateogoriaGasto;
+    
+    
+    public Expense(double cantidadGasto, String cateogoriaGasto) {
+        this.cantidadGasto = cantidadGasto;
+        this.cateogoriaGasto = cateogoriaGasto;
+    }
 }
